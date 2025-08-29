@@ -1,9 +1,5 @@
-# About
+# Markdown Cheet Sheet 
+    https://www.markdownguide.org/cheat-sheet/ 
 
-Hi! My name is Nathan Turner and I live in Tajikistan. I’m a high school senior taking Engineering II because I am considering studying engineering in college. This portfolio collects my projects and learning notes.
-
-**Skills & tools**
-- Python, Git/GitHub
-- Onshape (CAD), FEA basics
-- Robotics fundamentals
-- Documentation & presentation
+# Portfolio Project Reflection 
+    Doing this project I learned that when you are confused doing something it helps a lot to talk to someone who has already been through what you're doing to get a sense of generall direction. I also learned that sometimes you're just making one or more super simple mistakes that are messing up the whole thing. 
