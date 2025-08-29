@@ -17,7 +17,7 @@ theme:
 nav:
   - Home: index.md
   - Projects:
-      - Portfolio: projects/Portfolio_Project.md
+      - Portfolio: projects/portfolio_project.md
   - About: about.md
 
 markdown_extensions:
