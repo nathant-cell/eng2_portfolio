@@ -1,0 +1,66 @@
+#UV VS PIP Install
+
+## 1. Using UV
+
+### Creating a new project
+
+If you are tryinig to create a new project wtih uv:
+```
+mkdir newProjectName
+dc newProjectName
+
+uv init -p 3.13
+
+uv add yourPackageHere
+uv run python main.py
+
+```
+
+###Project Recovery
+If you want to bring your project down from GitHub into a new folder on your computer, use:
+
+```powershell
+
+# Replace the link with YOUR repo’s URL
+git clone https://github.com/USERNAME/REPOSITORY-NAME.git
+
+cd repoName
+uv sync
+
+
+```
+
+
+
+---
+
+## 2. Using PiP Install
+
+
+nothing susssss
+
+
+
+
+### Creating a new project w/ PIP
+If you want to crate a new project and you hate yourself, you can use pip.
+```
+# Create a virtual enviorment
+python -m venv .venv
+#Enter into the virtual enviorment
+.venv\Scripts\activate
+pip install yourPackigesHere
+
+#Write your code and then
+python main.py
+
+```
+### Project Recovery w/ pip
+
+```
+git clone https://github.com/USERNAME/REPOSITORY-NAME.git
+
+cd repoName
+pip install -r requirements.txt
+
+```
