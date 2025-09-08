@@ -18,7 +18,7 @@ nav:
   - Home: index.md
   - Projects:
       - Portfolio: projects/portfolio_project.md
-      - UV: projects/UV.md
+      - UV: projects/uv.md
   - About: about.md
 
 markdown_extensions:
