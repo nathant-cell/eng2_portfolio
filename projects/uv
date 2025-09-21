@@ -1,10 +1,10 @@
-#UV VS PIP Install
+#Differences between UV and Pip
 
 ## 1. Using UV
 
 ### Creating a new project
 
-If you are tryinig to create a new project wtih uv:
+How to create a new project wtih uv:
 ```
 mkdir newProjectName
 dc newProjectName
@@ -16,7 +16,7 @@ uv run python main.py
 
 ```
 
-###Project Recovery
+### Project Recovery
 If you want to bring your project down from GitHub into a new folder on your computer, use:
 
 ```powershell
@@ -35,11 +35,6 @@ uv sync
 ---
 
 ## 2. Using PiP Install
-
-
-nothing susssss
-
-
 
 
 ### Creating a new project w/ PIP
