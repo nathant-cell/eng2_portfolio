@@ -531,77 +531,31 @@
 <h1 id="uv-and-pip">UV and Pip</h1>
 <h2 id="uv">UV</h2>
 <p>I created this using UV because I was still learning and using UV makes it a lot easier. </p>
-<ol>
-<li>
 <p><code>mkdir eng2_portfolio # make the folder</code></p>
-</li>
-<li>
 <p><code>cd eng2_portfolio # navigate into the folder</code></p>
-</li>
-<li>
 <p><code>uv pip install mkdocs mkdocs-material # install mkdocs and material into uv's environment</code> </p>
-</li>
-<li>
 <p><code>uv run mkdocs new . # initialize an mkdocs site</code> </p>
-</li>
-<li>
 <p><code>uv run mkdocs serve # run a local dev server</code> </p>
-</li>
-<li>
 <p><code>git init</code></p>
-</li>
-<li>
 <p><code>git add .</code> </p>
-</li>
-<li>
 <p><code>git commit -m "Initial MkDocs portfolio"</code> </p>
-</li>
-<li>
 <p><code>git branch -M main</code> </p>
-</li>
-<li>
 <p><code>git remote add origin https://github.com/&lt;YOUR_GITHUB_USERNAME&gt;/eng2_portfolio.git</code> </p>
-</li>
-<li>
 <p><code>git push -u origin main</code> </p>
-</li>
-</ol>
-<p>Then you use this after you commit and sync your changes:
-<code>uv run mkdocs gh-deploy</code></p>
+<p>Then you use this after you commit and sync your changes:</p>
+<p><code>uv run mkdocs gh-deploy</code></p>
 <h2 id="pip">Pip</h2>
 <p>With Pip it runs slower and you have to make different commands. The only reason you would really use Pip is because not everything supports UV. </p>
-<ol>
-<li>
 <p><code>mkdir project # creates a folder</code></p>
-</li>
-<li>
 <p><code>cd project # navigates into that folder</code></p>
-</li>
-<li>
 <p><code>python -m venv .venv # creates a virtual environment</code></p>
-</li>
-<li>
 <p><code>source .venv/bin/activate # activates and enters the vitrtual environement on a mac</code></p>
-</li>
-<li>
 <p><code>pip install (your choice of library) # installs your choice of python libraries</code></p>
-</li>
-<li>
 <p><code>python main.py # run virtual environment</code></p>
-</li>
-<li>
 <p><code>git clone (link of the repo) # reate the folder with the repo</code></p>
-</li>
-<li>
 <p><code>cd (repo name) #navigate into repo</code></p>
-</li>
-<li>
 <p><code>uv sync</code></p>
-</li>
-<li>
 <p><code>pip install -r requirements.txt</code></p>
-</li>
-</ol>
 
 
 
