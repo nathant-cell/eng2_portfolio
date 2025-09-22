@@ -19,6 +19,7 @@ nav:
   - Projects:
       - Portfolio: projects/portfolio_project.md
       - UV: projects/UV.md
+      - Nicrome Wire Project: projects/Nicrome Wire.md
   - About: about.md
 
 markdown_extensions:
