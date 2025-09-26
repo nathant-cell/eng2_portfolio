@@ -1,9 +1,9 @@
-# The Problem
+## The Problem
 
-# Research 
+## Research 
 
-# Beggining Ideas 
+## Beggining Ideas 
 
-# Problems 
+## Problems 
 
-# Final Model and Summary
+## Final Model and Summary
