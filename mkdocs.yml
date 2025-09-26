@@ -4,11 +4,6 @@ site_url: https://nathant-cell.github.io/eng2_portfolio/
 
 theme:
   name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - content.code.copy
   palette:
     - scheme: dark
       primary: black
